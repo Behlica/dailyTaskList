@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="img\check.png">
+    <link rel="stylesheet" href="style\daysTaskStyle.css">
+    <title>Day`s task</title>
+</head>
+<body>
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="col-sm-4">
+                <img src="img\teste.png" alt="imagemTarefa" class="img-fluid">
+            </div>
+            <div class="col-sm-8" id="divQuadro">
+                <h1>Day`s Taks</h1>
+                <form>
+                    <p><label for="inTarefa">Tarefa:</label>
+                        <input type="text" class="form-control" id="inTarefa" required autofocus>
+                    </p>
+                    <p>
+                        <input type="submit" class="btn btn-primary" value="Adicionar &#10003;">
+                        <input type="button" class="btn btn-info" value="Selecionar &#8645;" id="btSelecionar">
+                        <input type="button" class="btn btn-danger" value="Retirar &#10007;" id="btRetirar">
+                        <input type="button" class="btn btn-success" value="Gravar &#9673;" id="btGravar">
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script\main.js"></script>
+</body>
+</html>
