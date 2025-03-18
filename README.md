@@ -1,7 +1,7 @@
 # dailyTaskList
 Projeto de aprendizado em lógica de programação utilizando JavaScript com foco em Manipulação do DOM para integração dinâmica com HTML e CSS.
 
-<img src="dailyTaskList/img/imgProjeto.png" alt="Logo do Projeto" width="300">
+<img src="dailyTaskList/img/imgProjeto.png" alt="Logo do Projeto" width="600">
 
 <h3>Objetivos do Projeto:</h3>
 
